@@ -426,3 +426,31 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# JetBrains Rider & IntelliJ IDEA
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Local configuration and environment files
+appsettings.*.local.json
+appsettings.local.json
+.env
+.env.*
+!.env.example
+
+# Backup and temporary files
+*.bak
+*.backup
+*BACKUP*
+*.tmp
+*~
